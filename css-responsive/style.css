@@ -23,7 +23,7 @@
   background-color: white;
   padding: 5px;
   text-align: center;
-  /* box-shadow: 2px 2px 5px 5px rgb(163, 162, 162); */
+  box-shadow: 2px 2px 5px 5px rgb(163, 162, 162);
   width: 100%;
   font-weight: 600;
   color: black;
@@ -149,7 +149,6 @@ h4 {
   padding-left: 20px;
 }
 .footerDivs :hover{
-<<<<<<< HEAD
   background-color: grey;
 }
 .read-more-btn{
@@ -160,7 +159,3 @@ h4 {
 .read-more-btn :hover{
   background-color: darkslategrey; 
 }
-=======
-  color: grey;
-}
->>>>>>> 1c99d125d44365146c8d368a04498d7b1f28ded2
