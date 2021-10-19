@@ -3,7 +3,7 @@
   padding: 0;
 }
 .container{
-  background: rgb(185, 182, 182);
+  background: lightskyblue;
   padding: 20px;
   
 }
@@ -13,7 +13,7 @@
   margin: 10px 0;
   align-content: center;
   justify-content: center;
-  gap: 200px;
+  gap: 10px;
   width: 100%;
   
 
@@ -23,9 +23,10 @@
   background-color: white;
   padding: 5px;
   text-align: center;
-  box-shadow: 2px 2px 5px 5px rgb(163, 162, 162);
+  /* box-shadow: 2px 2px 5px 5px rgb(163, 162, 162); */
   width: 100%;
   font-weight: 600;
+  color: black;
 }
 
 .hero{
@@ -39,7 +40,7 @@
 .main {
   color: whitesmoke;
   grid-area: five;
-  background-image: url("./resources/Akira\ 3840\ x\ 2160.jpg");
+  background-image: url("./resources/Dororo\ 3840\ x\ 2160.jpg");
   background-position: center;
   background-size:cover;
   
@@ -104,7 +105,7 @@
   
 }
 .footerDivs{
-  background-color: white;
+  background-color: lightblue;
   justify-content: center;
   min-height: 200px;
   display: flex;
@@ -126,11 +127,16 @@
                            "six"
                            "seven";
   }
-  .six, .seven{
+  .membership, .pro-membership{
       min-height: 200px;
+      
   }
   .footer{
       flex-direction: column;
+  }
+  .footerDivs{
+    margin: 0px 30px;
+
   }
 }
 .root{
@@ -143,5 +149,13 @@ h4 {
   padding-left: 20px;
 }
 .footerDivs :hover{
-  color: grey;
+  background-color: grey;
+}
+.read-more-btn{
+  color: black;
+  background-color: #ccc;
+  
+}
+.read-more-btn :hover{
+  background-color: darkslategrey; 
 }
